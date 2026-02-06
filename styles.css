@@ -1,0 +1,20 @@
+@keyframes neon {
+  0%, 100% {
+    color: #00d89b;
+    text-align: center;
+    text-shadow:
+      0 0 5px #2dffc4,
+      0 0 20px #2dffc4,
+      0 0 40px #2dffc4;
+  }
+  50% {
+    text-shadow:
+      0 0 10px #2dffc4,
+      0 0 30px #2dffc4,
+      0 0 60px #2dffc4;
+  }
+}
+
+h1 {
+  animation: neon 1.5s infinite alternate;
+}
